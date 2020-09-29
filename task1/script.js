@@ -1,6 +1,6 @@
 import { hide, show } from '../common/scripts/common.js';
 
-const tabs      = document.querySelectorAll('.tab');
+const tabs      = document.querySelectorAll('[role="tab"]');
 const tabPanels = document.querySelectorAll('.tabpanel');
 
 /**

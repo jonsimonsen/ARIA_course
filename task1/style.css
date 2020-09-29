@@ -7,12 +7,12 @@ img {
   max-width: 50rem;
 }
 
-.tab-panel-default .tablist {
+.tab-panel-default [role="tablist"] {
   margin-bottom: -1px;
   position: relative;
 }
 
-.tab-panel-default .tab {
+.tab-panel-default [role="tab"] {
   box-sizing: border-box;
   padding: 1rem;
   border: 1px solid #333;
