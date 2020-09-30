@@ -21,11 +21,16 @@ npm run serve
 This is the result of a workshop held 29.09.2020  
 The solution is a work in progress  
 The original task is here: https://github.com/tajakobsen/a11y-workshop  
-Tools: Chrome Developer Tools/Lighthouse, Wave plugin, ChromeVox
+Tools: Chrome Developer Tools/Lighthouse, Wave plugin, ChromeVox, VoiceOver (MAC)
 
-## Task 1 Status
+## Task 1
 
 - Made background slightly darker for better contrast
 - Added alt to images
 - Added roles to tablist and tabs
 - Now uses the role attribute in selectors. Classes with the same names as the roles have been removed.
+- Completed the other ARIA-instructions. Works with VoiceOver, but there seems to be problems with ChromeVox.
+
+## Task 2
+
+- TODO: Look at this task.

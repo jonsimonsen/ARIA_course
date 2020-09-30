@@ -18,24 +18,24 @@
 
   <div id="tab-panel" class="tab-panel-default">
     <!-- Tab list -->
-    <ul class="ul-horizontal" role="tablist" aria-label="tabs-title">
-      <li id="tab-1" class="selected" role="tab" data-tab-show="tabpanel-1">Design</li>
-      <li id="tab-2" class="" role="tab" data-tab-show="tabpanel-2">Develop</li>
-      <li id="tab-3" class="" role="tab" data-tab-show="tabpanel-3">Deploy</li>
+    <ul class="ul-horizontal" role="tablist" aria-labelledby="tabs-title">
+      <li id="tab-1" class="selected" role="tab" aria-selected="true" aria-controls="tabpanel-1">Design</li>
+      <li id="tab-2" class="" role="tab" aria-selected="false" aria-controls="tabpanel-2">Develop</li>
+      <li id="tab-3" class="" role="tab" aria-selected="false" aria-controls="tabpanel-3">Deploy</li>
     </ul>
 
     <!-- Tab panels -->
-    <div id="tabpanel-1" class="" role="tabpanel">
+    <div id="tabpanel-1" class="" role="tabpanel" aria-labelledby="tab-1">
       <p>A designer creates the look and flow of a web page.</p>
       <img src="../common/images/undraw_designer_girl.svg" alt="Woman drawing a design" />
     </div>
 
-    <div id="tabpanel-2" class="hidden" role="tabpanel">
+    <div id="tabpanel-2" class="hidden" role="tabpanel" aria-labelledby="tab-2">
       <p>A developer uses magic to realize the design.</p>
       <img src="../common/images/undraw_hello.svg" alt="Man coding on a laptop" />
     </div>
 
-    <div id="tabpanel-3" class="hidden" role="tabpanel">
+    <div id="tabpanel-3" class="hidden" role="tabpanel" aria-labelledby="tab-3">
       <p>Operations puts the web page on a server.</p>
       <img src="../common/images/undraw_maintenance.svg" alt="Man with laptop in server room" />
     </div>

@@ -30,7 +30,7 @@ function onSelect(selectedElement) {
  * @returns {HTMLElement}
  */
 function getPanelByTab(el) {
-  return document.getElementById(el.dataset.tabShow);
+  return document.getElementById(el.getAttribute('aria-controls'));
 }
 
 /**
@@ -39,6 +39,7 @@ function getPanelByTab(el) {
  */
 function unselect(el) {
   el.classList.remove('selected');
+  el.ariaSelected = 'false';
 }
 
 /**
@@ -47,6 +48,7 @@ function unselect(el) {
  */
 function select(el) {
   el.classList.add('selected');
+  el.ariaSelected = 'true';
 }
 
 // initiate
