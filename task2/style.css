@@ -71,3 +71,8 @@ img {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+/*Jon styles*/
+#button-show-dialog {
+  background-color: #006bff;
+}
