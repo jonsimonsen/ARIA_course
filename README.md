@@ -23,6 +23,11 @@ The solution is a work in progress
 The original task is here: https://github.com/tajakobsen/a11y-workshop  
 Tools: Chrome Developer Tools/Lighthouse, Wave plugin, ChromeVox, VoiceOver (MAC)
 
+## Observations
+
+You need a way to reload the browser cache. Loading it with DevTools open and "Disable cache" works.  
+Lighthouse and Wave plugin seems to work well for the page after loading, but it does not seem like they can discover accessibility issues after the user has interacted with the page.  
+
 ## Task 1
 
 - Made background slightly darker for better contrast
